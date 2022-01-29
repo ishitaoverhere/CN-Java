@@ -46,7 +46,7 @@ class Box {
             return (super.area() * height);
         }
 
-        public static void main(String arga[]) {
+        public static void main(String[] args) {
             Box b1 = new Box();
             Box3d b2 = new Box3d(12, 34, 18);
             b1.setval(25, 30);

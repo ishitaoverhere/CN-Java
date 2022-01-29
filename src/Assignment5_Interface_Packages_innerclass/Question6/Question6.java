@@ -21,7 +21,8 @@ class Student_{
 }
 class Result extends Student_ implements Exam_{
     int per;
-    public Result(String name, int roll, int marks1, int marks2) {
+    public Result(String name, int roll,
+                  int marks1, int marks2) {
         super(name, roll, marks1, marks2);
     }
     public void percentCall() {
