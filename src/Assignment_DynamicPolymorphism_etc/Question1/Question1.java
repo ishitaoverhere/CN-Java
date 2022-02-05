@@ -96,6 +96,12 @@ class officer extends staff
         System.out.println("GRADE :  "+grade);
     }
 }
+<<<<<<< HEAD
+=======
+class regular extends typist
+{
+}
+>>>>>>> origin/master
 
 class casual extends typist
 {
